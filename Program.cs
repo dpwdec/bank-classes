@@ -7,8 +7,27 @@ namespace classes
     {
         static void Main(string[] args)
         {
-            throw new System.Exception("Trig");
-            // var account = new BankAccount("Dec", 1000);
+            var account = new BankAccount("Dec", 100);
+
+            // try
+            // {
+            //     var account2 = new BankAccount("Dan", -55);
+            // }
+            // catch (ArgumentOutOfRangeException e)
+            // {
+            //     Console.WriteLine("Negative Balance");
+            //     Console.WriteLine(e.ToString());
+            // }
+
+            try
+            {
+                account.MakeWithdrawal(750, DateTime.Now, "overdraw!");
+            }
+            catch(InvalidOperationException e)
+            {
+                Console.WriteLine("Overdraft detected! ❌");
+                Console.WriteLine(e.ToString());
+            }
             // Console.WriteLine($"Balance: {account.Balance}\nName: {account.Owner}\nIdent: {account.Number}\nAge:{account.Age}");
             // var account2 = new BankAccount("Marcus", 200);
             // Console.WriteLine($"Balance: {account2.Balance}\nName: {account2.Owner}\nIdent: {account2.Number}");

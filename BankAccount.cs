@@ -21,10 +21,7 @@ namespace classes
 
                 return balance;
             }
-            set
-            {
-                Balance = value;
-            }
+            set => Balance = value;
         }
 
         // why initialize in the body of the class?
@@ -35,9 +32,11 @@ namespace classes
         public BankAccount(string name, decimal initialBalance)
         {
             this.Owner = name;
-            this.Balance = initialBalance;
             this.Number = accountNumberSeed.ToString();
             accountNumberSeed++;
+
+            MakeDeposit(initialBalance, DateTime.Now, "Initial balane");
+            Console.WriteLine(Balance);
         }
 
     public void MakeDeposit(decimal amount, DateTime date, string note)
