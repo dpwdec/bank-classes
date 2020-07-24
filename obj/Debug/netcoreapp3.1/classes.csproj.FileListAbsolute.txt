@@ -1,0 +1,12 @@
+/Users/student/Documents/2020-july/classes/bin/Debug/netcoreapp3.1/classes.deps.json
+/Users/student/Documents/2020-july/classes/bin/Debug/netcoreapp3.1/classes.runtimeconfig.json
+/Users/student/Documents/2020-july/classes/bin/Debug/netcoreapp3.1/classes.runtimeconfig.dev.json
+/Users/student/Documents/2020-july/classes/bin/Debug/netcoreapp3.1/classes.dll
+/Users/student/Documents/2020-july/classes/bin/Debug/netcoreapp3.1/classes.pdb
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.csprojAssemblyReference.cache
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.AssemblyInfoInputs.cache
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.AssemblyInfo.cs
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.csproj.CoreCompileInputs.cache
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.dll
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.pdb
+/Users/student/Documents/2020-july/classes/obj/Debug/netcoreapp3.1/classes.genruntimeconfig.cache
